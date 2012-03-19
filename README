@@ -1,0 +1,11 @@
+=======
+Summary
+=======
+
+Genetic linkage mapping enables the study of genome organization and the association of heritable traits with regions of sequenced genomes. Comparative genetic mapping is particularly powerful as it allows translation of information between related genomes and gives an insight into genome evolution. A common tool for the storage, comparison and visualization of genetic maps is CMap. However, current visualization in CMap is limited to the comparison of adjacent aligned maps. To overcome this limitation, we have developed CMap3D, a tool to compare multiple genetic maps in three-dimensional space. CMap3D is based on a client/server model ensuring operability with current CMap data repositories. This tool can be applied to any species where genetic map information is available and enables rapid, direct comparison between multiple aligned maps.
+
+===============================
+Availability and Implementation 
+===============================
+
+The software is a stand-alone application written in Processing and Java. Binaries are available for Windows, OSX and Linux, and require Sun Microsystems Java Runtime Environment 1.6 or later.
