@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<repository_listing>
+<repository shortname='GrameneDEV'>
+<longname>Gramene (Development)</longname>
+<website>http://dev.gramene.org/</website>
+<description>Gramene Development Repository~~Links to the development repository of CMap data for the Gramene project. The development repository uses version 1.01 of the CMap softare distribution. CMap 1.01 supports the display of comparative map data in CMap3D.</description>
+<data>http://dev.gramene.org/db/cmap/cmap3d</data>
+<link>http://www.gramene.org/db/cmap/feature?feature_acc=</link>
+</repository>
+<repository shortname='GrainGenes'>
+<longname>GrainGenes CMap (Production)</longname>
+<website>http://wheat.pw.usda.gov/GG2/</website>
+<description>GrainGenes CMap Repository~~CMap is the official map display for the new GrainGenes database, GrainGenes SQL. It includes the same genetic and deletion maps as GrainGenes Classic. In addition it allows the maps to be compared side by side much more satisfactorily. </description>
+<data>http://wheat.pw.usda.gov/cgi-bin/cmap/cmap3d</data>
+<link>http://wheat.pw.usda.gov/cgi-bin/cmap/feature?feature_acc=</link>
+</repository>
+<repository shortname='BrassicaDEV'>
+<longname>Brassica CMap (Development)</longname>
+<website>http://bioinformatics.acpfg.com.au/cmap/</website>
+<description>Brassica Development Repository~~A repository of Brassica CMap data generated from XXX, by Zoran</description>
+<data>http://bioinformatics.acpfg.com.au/cgi-bin/cmap/cmap3d</data>
+<link>http://bioinformatics.acpfg.com.au/cgi-bin/cmap/feature?feature_acc=</link>
+</repository>
+<repository shortname='WheatGenome'>
+<longname>WheatGenome.info</longname>
+<website>http://www.wheatgenome.info/</website>
+<description>WheatGenome.info Repository~~Links to the CMap data generated from the pseudomolecule assemblies of the wheat genome</description>
+<data>http://www.wheatgenome.info/cgi-bin/cmap/cmap3d</data>
+<link>http://www.wheatgenome.info/cgi-bin/cmap/feature?feature_acc=</link>
+</repository>
+</repository_listing>
+
