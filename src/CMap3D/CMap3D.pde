@@ -7,9 +7,32 @@
  *
  * Version 0.7
  *
- * Copyright (c) 2008,2009. Chris Duran.
- * Email: c.duran@uq.edu.au
+ * This software is available through the following channels:
+ * http://chrisduran.co/
+ * https://github.com/chrisduran/CMap3D/
+ * http://
+ *
+ * Copyright (c) 2008  Chris Duran
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * https://github.com/chrisduran/CMap3D/blob/master/LICENCE
+ *
+ * Email: c.duran@uqconnect.edu.au
+ * Web: http://chrisduran.co/
  */
+ 
  
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -272,22 +295,29 @@ void draw() {
       float titleWidth = textWidth("CMap3D: A 3D visualization tool for comparative genetic maps");
       textFont(currentRepositoryFont);
       fill(mapColour);
-      text("Genetic linkage mapping enables the study of genome organisation and "+
-      "the association of heritable traits with regions of sequenced genomes and "+
-      "underlying genome sequence variation. Comparative genetic mapping is particularly "+
-      "powerful as it allows a translation of information between related genomes and gives "+
-      "an insight into genome evolution. A common tool for the storage, comparison and "+
-      "visualisation of genetic maps is CMap. However, current map visualisation in CMap is "+
-      "limited to the comparison of adjacent aligned maps. To overcome this limitation, "+
-      "we have developed CMap3D, a tool to graphically compare multiple genetic maps in "+
-      "three-dimensional space. The CMap3D visualisation tool is based on a client server "+
-      "model ensuring operability with current CMap data repositories. This tool can be "+
-      "applied to any species where genetic map information is available and enables rapid, "+
-      "direct comparison between multiple aligned maps.",50,120,900,150);
+      text("A viewer for viewing and comparing genetic(linkage)/physical/sequence maps, using "+
+           "annotations or 'features' (such as SSR/RFLP/SNP/etc markers) to map common aspects "+
+           "between the maps. See (http://www.gmod.org/wiki/index.php/CMap) for details on the "+
+           "original 2D comparative mapping software."+
+           "\n\n"+
+           "Copyright (c) 2008  Chris Duran"+
+           "\n\n"+
+           "This program is free software: you can redistribute it and/or modify "+
+           "it under the terms of the GNU General Public License as published by "+
+           "the Free Software Foundation, either version 3 of the License, or "+
+           "(at your option) any later version."+
+           "\n\n"+
+           "This program is distributed in the hope that it will be useful, "+
+           "but WITHOUT ANY WARRANTY; without even the implied warranty of "+
+           "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the "+
+           "GNU General Public License for more details."+
+           "\n\n"+
+           "You should have received a copy of the GNU General Public License "+
+           "along with this program.  If not, see <http://www.gnu.org/licenses/>.",50,120,900,270);
       
 
       fill(backgroundControl);
-      rect(350,353,300,40);
+      rect(350,403,300,40);
       noStroke();
       fill(activeControl);
       if (mouseX>350 && mouseX<650 && mouseY>353 && mouseY<393) {
@@ -299,7 +329,7 @@ void draw() {
       }
       textFont(messageFont);
       textAlign(CENTER);
-      text("START USING CMAP3D",500,380);
+      text("START USING CMAP3D",500,430);
       
       textFont(currentRepositoryFont);
       fill(correspondenceColour);
