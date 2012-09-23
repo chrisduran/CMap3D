@@ -9,3 +9,9 @@ Availability and Implementation
 ===============================
 
 The software is a stand-alone application written in Processing and Java. Binaries are available for Windows, OSX and Linux, and require Sun Microsystems Java Runtime Environment 1.6 or later.
+
+===================
+Licence Information
+===================
+
+CMap3D is distributed under the GGPLv3 licence. See the LICENCE file in the root directory of this repository for more details.
